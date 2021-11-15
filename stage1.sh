@@ -39,6 +39,9 @@ mount --rbind /sys $dir/sys
 mount --rbind /dev $dir/dev
 # Creamos el directorio portage en /usr/
 mkdir $dir/usr/portage
+# Instalamos genfstab en el LiveCD de Gentoo y generamos fstab
+emerge sys-fs/genfstab
+genfstab -U -p $dir >> $dir/etc/fstab
 # chroot al nuevo sistema (de forma temporal)
 chroot $dir /bin/bash
 else
