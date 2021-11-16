@@ -8,7 +8,7 @@ cores=$(cat /proc/cpuinfo | grep "cpu cores" | cut -c 13)
 if [ -d "$dir" ]
 then 
 echo "El directorio donde está montado el disco del sistema existe, continuando..."
-cd /mnt/sys
+cd /mnt/gentoo
 # Elegid de aqui el paquete de stage 3 que os interese, esto lo actualizare conforme cambien las versiones
 # Stage 3 desktop sin hardenizar
 # wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-desktop-openrc-20211114T170549Z.tar.xz
@@ -48,8 +48,7 @@ else
 if [ -d "$dir2"]
 then
 echo "El directorio donde está montado el disco del sistema existe, continuando..."
-echo "El directorio donde está montado el disco del sistema existe, continuando..."
-cd /mnt/gentoo
+cd /mnt/sys
 # Elegid de aqui el paquete de stage 3 que os interese, esto lo actualizare conforme cambien las versiones
 # Stage 3 desktop sin hardenizar
 # wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-desktop-openrc-20211114T170549Z.tar.xz
