@@ -5,9 +5,25 @@ source /etc/profile
 export PS1="(chroot) $PS1"
 # Actualizar portage
 emerge-webrsync
-emerge --sync --quiet
 # Elegir perfil de instalación, descomentar esta linea una vez se tenga claro.
-# eselect profile set 
+#Perfiles 17.1
+#eselect profile set 3 #Hardened (Estable)
+#eselect profile set 4 #Hardened (Estable con SELinux)
+#eselect profile set 6 # (Estable preparado para escritorio con GNOME)
+#eselect profile set 7 # (Estable preparado para escritorio con GNOME y systemd)
+#eselect profile set 8 # (Estable preparado para escritorio KDE Plasma)
+#eselect profile set 9 # (Estaple preparado para escritorio KDE Plasma y systemd)
+#eselect profile set 13 # (No multi-lib estable y hardened)
+#eselect profile set 14 # (No multi-lib estable, hardened y con SELinux)
+#Perfiles 17.0
+#eselect profile set 19 # Hardened (Estable)
+#eselect profile set 20 # Hardened con SELinux (Estable)
+#eselect profile set 22 # Escritorio con GNOME (Estable
+#eselect profile set 23 # Escritorio con GNOME y systemd
+#eselect profile set 24 # Escritorio con KDE Plasma 
+#eselect profile set 25 # Escritorio con KDE Plasma y systemd
+#eselect profile set 28 # No multilib hardened
+#eselect profile set 29 # No multilib hardened con SELinux
 # Actualizar @world
 emerge -t --update --deep --with-bdeps=y --newuse world && eix-update && perl-cleaner all && python-updater && eclean distfiles && eclean packages
 # Setear zona horaria
