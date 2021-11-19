@@ -7,7 +7,7 @@ export PS1="(chroot) $PS1"
 emerge-webrsync
 # Elegir perfil de instalación, descomentar esta linea una vez se tenga claro.
 #Perfiles 17.1
-#eselect profile set 3 #Hardened (Estable)
+eselect profile set 3 #Hardened (Estable)
 #eselect profile set 4 #Hardened (Estable con SELinux)
 #eselect profile set 6 # (Estable preparado para escritorio con GNOME)
 #eselect profile set 7 # (Estable preparado para escritorio con GNOME y systemd)
