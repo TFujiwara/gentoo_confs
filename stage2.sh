@@ -36,7 +36,7 @@ echo "LANG=\"es_ES.UTF-8\"" > /etc/env.d/02locale
 # Descargar y generar Kernel
 # Version genkernel
 emerge gentoo-sources
-ls -l /usr/src/linux
+ln -s /usr/src/linux-* /usr/src/linux
 emerge genkernel
 genkernel all
 # Configurar red
