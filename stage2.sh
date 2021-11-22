@@ -82,10 +82,5 @@ grub-install /dev/sda
 # Solo UEFI
 # grub-install --target=x86_64-efi --efi-directory=/boot
 grub-mkconfig -o /boot/grub/grub.cfg
-# Salir de chroot, desmontar particiones y reiniciar
+# Salir de chroot
 exit
-cd ..
-cd ..
-umount -l /mnt/gentoo/dev{/pts,/shm,}
-umount -l /mnt/gentoo{/boot,/home,/sys,/proc,}
-reboot
