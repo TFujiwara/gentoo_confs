@@ -11,13 +11,13 @@ echo "El directorio donde está montado el disco del sistema existe, continuando
 cd /mnt/gentoo
 # Elegid de aqui el paquete de stage 3 que os interese, esto lo actualizare conforme cambien las versiones
 # Stage 3 desktop sin hardenizar
-# wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-desktop-openrc-20211114T170549Z.tar.xz
+# wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-hardened-openrc/stage3-amd64-desktop-openrc-20211121T170545Z.tar.xz
 # Stage 3 hardenizado
-# wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-hardened-openrc-20211114T170549Z.tar.xz
+# wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-hardened-openrc/stage3-amd64-hardened-openrc-20211121T170545Z.tar.xz
 # Stage 3 hardenizado nomultilib
-# wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-hardened-nomultilib-openrc-20211114T170549Z.tar.xz
+# wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-hardened-openrc/stage3-amd64-hardened-nomultilib-openrc-20211121T170545Z.tar.xz
 # Stage 3 hardenizado con SELinux
-# https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-hardened-selinux-openrc-20211114T170549Z.tar.xz
+# wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-hardened-openrc/stage3-amd64-hardened-selinux-openrc-20211121T170545Z.tar.xz
 tar -xvf stage3-*.tar.xz
 # Recordar al usuario la necesidad de configurar la flag USE si necesita algo más especifico que un sistema base sin X
 echo "Te recuerdo que tienes que configurar la flag USE si necesitas algo más que un sistema base sin X (entorno gráfico), que es lo que se instala aqui. O puedes configurarlo posteriormente!"
