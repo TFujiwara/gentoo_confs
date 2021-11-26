@@ -76,7 +76,7 @@ echo "clock=\"UTC\"" > /etc/conf.d/hwclock
 emerge dhcpcd pciutils gentoolkit
 rc-update add dhcpcd default
 # Instalacion de GRUB 
-echo GRUB_PLATFORMS="efi-64" >> /etc/portage/make.conf
+echo GRUB_PLATFORMS="emu efi-32 efi-64 pc" >> /etc/portage/make.conf
 emerge os-prober sys-boot/grub:2
 grub-install /dev/sda
 # Solo UEFI
