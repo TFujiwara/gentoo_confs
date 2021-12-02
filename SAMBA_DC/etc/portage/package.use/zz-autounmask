@@ -1,0 +1,6 @@
+# package.use# required by sys-boot/os-prober-1.78-r1::gentoo
+# required by os-prober (argument)
+>=sys-boot/grub-2.06-r1 mount
+# required by net-print/hplip-3.20.11-r2::gentoo[snmp,-minimal]
+# required by net-print/hplip (argument)
+>=net-dns/avahi-0.8-r5 python
