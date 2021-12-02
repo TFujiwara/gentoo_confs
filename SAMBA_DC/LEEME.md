@@ -77,6 +77,8 @@ samba-tool domain provision --server-role=dc --use-rfc2307 --dns-backend=SAMBA_I
 samba-tool dns zone create <IP de nuestro host o hostname> -U Administrator
 ```
 # Arranque del controlador de dominio Samba
+Teneis los script de arranque disponibles en la carpeta */etc* de este directorio de mi repo de Github.
+Lo suyo sería crear un servicio que arrancara automaticamente al inicio del sistema el controlador de dominio, aún estoy investigando como hacerlo con OpenRC.
 
 
 
