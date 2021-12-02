@@ -10,10 +10,10 @@ Recomiendo tenerlas a mano o usar solamente la del procesador en la que estemos 
 
 El instalador de Gentoo se divide en dos etapas: **stage1.sh** y **stage2.sh**.
 
-El stage1 contiene la descompresión del tar del stage 3 elegido y descomentado previamente en el fichero, pudiendo elegir entre el Desktop y tres hardenizados, uno de ellos con SELinux.
+El **stage1** contiene la descompresión del tar del stage 3 elegido y descomentado previamente en el fichero, pudiendo elegir entre el Desktop y tres hardenizados, uno de ellos con SELinux.
 
-El stage2 contiene el resto de la instalación, en la cual se genera el kernel del sistema y se instala el GRUB en la raíz del disco. 
+El **stage2** contiene el resto de la instalación, en la cual se genera el kernel del sistema y se instala el GRUB en la raíz del disco. 
 
-
+En el directorio **SAMBA_DC** tenéis la configuración y la guía de instalación de un controlador de dominio Samba en Gentoo. 
 
 
