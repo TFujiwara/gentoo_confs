@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script instalación Gentoo by Cristian Garcia Quevedo a.k.a TFujiwara
-# Made from Whihax Security to the world...
+# Made from Chaos as a Service to the world...
 # Ejecutar este script después del particionado del disco con fdisk o cfdisk, el que mas rabia os de.
 dir="/mnt/gentoo"
 dir2="/mnt/sys"
