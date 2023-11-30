@@ -13,7 +13,7 @@ cd /mnt/gentoo
 # Stage 3 desktop sin hardenizar
 # wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-desktop-openrc-20211121T170545Z.tar.xz
 # Stage 3 hardenizado
-# wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-hardened-openrc-20211121T170545Z.tar.xz
+wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-hardened-openrc/stage3-amd64-hardened-openrc-20231126T163200Z.tar.xz
 # Stage 3 hardenizado nomultilib
 # wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-hardened-nomultilib-openrc-20211121T170545Z.tar.xz
 # Stage 3 hardenizado con SELinux
@@ -53,7 +53,7 @@ cd /mnt/sys
 # Stage 3 desktop sin hardenizar
 # wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-desktop-openrc-20211114T170549Z.tar.xz
 # Stage 3 hardenizado
-# wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-hardened-openrc-20211114T170549Z.tar.xz
+# wget https://mirror.bytemark.co.uk/gentoo/releases/amd64/autobuilds/current-stage3-amd64-hardened-openrc/stage3-amd64-hardened-openrc-20231126T163200Z.tar.xz
 # Stage 3 hardenizado nomultilib
 # wget https://mirror.bytemark.co.uk/gentoo//releases/amd64/autobuilds/current-stage3-amd64-desktop-openrc/stage3-amd64-hardened-nomultilib-openrc-20211114T170549Z.tar.xz
 # Stage 3 hardenizado con SELinux
